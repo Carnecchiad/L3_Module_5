@@ -17,19 +17,13 @@ public class RemovingStuffFromArrayLists {
 		}
 		class Dirt extends Stuff {
 		}
-		ArrayList<Stuff> stuffIFoundInTheYard = new ArrayList<Stuff>();
+		ArrayLst<S stuffIFoundInTheYard = new ArrayList<Stuff>();
 		stuffIFoundInTheYard.add(new Worm());
-		stuffIFoundInTheYard.add(new Dirt());
-		stuffIFoundInTheYard.add(new Dirt());
-		stuffIFoundInTheYard.add(new Dirt());
-		stuffIFoundInTheYard.add(new Worm());
-		stuffIFoundInTheYard.add(new Dirt());
+		ArrayList<Stuff> 1;
+		1.size());
 
-		System.out.println(stuffIFoundInTheYard.size());
-
-		/* TODO 1: Clean out the dirt but keep the delicious worms. */
-		for (int i = 0; i < stuffIFoundInTheYard.size(); i++) {
-			if (stuffIFoundInTheYard.get(i) instanceof Dirt) {
+		/* TOint i = 0; i < stuffIFoundInTheYard.size(); i++) {
+			if (stuffIFoundInheYard.get(i) instanceof Dirt) {
 				System.out.println("s");
 				stuffIFoundInTheYard.remove(i);
 				i--;
